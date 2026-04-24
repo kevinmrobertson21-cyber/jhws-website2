@@ -1,0 +1,51 @@
+---
+import BootstrapLayout from "../layouts/BootstrapLayout.astro";
+import Header from "../components/home/Header.astro";
+import Section1 from "../components/home/Section1.astro";
+import Section2 from "../components/home/Section2.astro";
+import VideoSection from "../components/home/VideoSection.astro";
+import Section4 from "../components/home/Section4.astro";
+import Section5 from "../components/home/Section5.astro";
+import Section6 from "../components/home/Section6.astro";
+---
+
+<BootstrapLayout title="Joshua House Warming Shelter - Home">
+    <Header />
+    <div class="card border-0 shadow-lg">
+     
+      
+     <h1 class="text-center"> Mission Statement </h1>
+       <p>The Joshua house is dedicated to  serving  people who are unhoused in Orleans County, Vermont.</p>
+    </div>
+
+  <div>
+    <p>
+      The board of directors is comprised of
+      <ul>
+        <li>President: Gayle Phillebaum</li>
+        <li>Vice President: Brenda Lowther</li>
+        <li>Treasurer: Tony Durant</li>
+        <li>Secretary: Pam Farrow</li>
+         <h3>Board members :</h3>
+          <li>Cathy Valley</li>
+          <li>Brad Gerlach</li>
+          <li>Brenda Lowther</li>
+        
+      </ul>
+    </p>
+
+    <iframe 
+            id="ytplayer" 
+            type="text/html"
+            src="https://www.youtube.com/embed/P2aaFJucszs?enablejsapi=1"
+            title="Joshua House Warming Shelter Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            class="rounded">
+          </iframe>
+
+
+    </div>
+
+  </BootstrapLayout>
